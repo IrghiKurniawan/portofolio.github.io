@@ -1,0 +1,157 @@
+*,html{
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 17px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(32b877ed4aa7778cc7d43ebb7d95a6f1.png);
+    width: 700px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    left: 250px;
+    top: 120px;
+}
+p{
+    color: rgb(177, 177, 101);
+    text-align: center;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+  .yaya{
+    list-style: none;
+    color: white;
+    float: left;
+    padding: 15px 10px;
+    margin: 5px 2px;
+    padding:13px 20px;
+    position: relative;
+    top: 30px;
+    left: 650px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    height: 10px;
+  }
+  .yaya:hover{
+    transition: 3s;
+    background-color: greenyellow;
+  }
+  .header {
+    background-color: #00000000;
+    color: #545050;
+    height: 100px;
+    width: 1263px;
+    box-shadow: 0 0 20px black;
+    font-weight: bold;
+    position: sticky;
+    position: -webkit-sticky;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+   
+    padding:20px 40px;
+    position: relative;
+    
+  }
+  .header-logo:hover{
+    transition: 2s;
+    letter-spacing: 3px;
+  }
+  .lolipop{
+    position: relative;
+    top: 200px;
+  }
+  .button:hover{
+    transition: 3s;
+    background-color: aqua;
+    color: black;
+    border-radius: 50px;
+  }
+  .button{
+    background-color: #000000;
+    border: none;
+    color: white;
+    justify-content: center;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 550px;
+    top: 180px;
+  }
+  .hoper{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    width: 180px;
+    border-radius: 11px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    padding: 20px;
+    box-shadow: 0 0 20px black;
+  }
+  .hoper:hover{
+    transition: 2s;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+
+  .header-list ul a {
+    text-decoration: none;
+  }
+  span{
+    background:linear-gradient(aqua,blue,green) ;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+@media  (max-width: 768px) {
+  .header {
+    padding: 15px 2%;
+    font-size: 25px;
+  }
+
+  .header-logo {
+    padding:40px 40px;
+    position: relative;
+  }
+  
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #545050;
+  }
+}
+.poto{
+  position: relative;
+  left: 830px;
+  bottom: 230px;
+  box-shadow: 0 0 30px black;
+  border-radius: 20px;
+}
+.iya{
+  box-shadow:0 0 30px rgb(255, 255, 255);
+  border-radius: 30px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-image: url(images\ \(1\).jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(255, 0, 0);
+    background-color: white;
+    width: 180px;
+    border-radius: 11px;
+    padding: 20px;
+}
+footer{
+    color: honeydew;
+}
+h3:hover{
+    transition: 3s;
+    letter-spacing: 2px;
+}
+div{
+    justify-content: center;
+    text-align: center;
+}
